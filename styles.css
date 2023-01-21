@@ -1,0 +1,324 @@
+/* Title section */
+.head>h2 {
+    font-weight : 600;
+    font-family : "ubuntu";
+    /* padding-bottom: 2rem */
+}
+
+/* .img-title  {
+    a
+} */
+
+.title-img {
+    /* margin-top :auto;
+    margin-bottom :auto; */
+    width : 100%;
+    /* left : 55%; */
+    /* top : 25%; */
+    /* height : 100%; */
+    border : 2px solid black;
+    /* border-radius : 100%; */
+    /* margin:auto; */
+    padding-bottom : 0rem;
+
+    /* position : absolute; */
+
+    /* border-radius : 20% ; */
+}
+
+body {
+    font-family : "Montserrat";
+}
+
+.navbar {
+    color :  black;
+}
+
+.navbar-brand {
+    color : white;
+    font-size : 2rem;
+}
+
+.nav-item {
+    padding: 0rem 1.5rem;
+    font-weight : 500    
+}
+
+.navbar-brand {
+    font-weight : 600;
+    font-family : "ubuntu"
+}
+
+
+
+.heading {
+    margin: 15% auto;
+   
+}
+
+.titleh11 {
+    text-align : center
+}
+
+/* .heading>h1 {
+    font-size : 3rem;
+    font-weight : 900;
+    padding-bottom : 1.5rem;
+} */
+
+/* .titleh11 {
+    font-size : 3rem;
+    font-weight : 900;
+    padding-bottom : 1.5rem;
+} */
+
+.firh1 {
+    font-size : 2.5rem;
+    font-weight : 700;
+    /* padding-bottom : 1.5rem; */
+}
+
+.firh2 {
+    font-size : 3rem;
+    font-weight : 700;
+    padding-bottom : 1.5rem;
+}
+
+#title {
+    /* padding : 2.5% 10%; */
+    padding-top : 2.5%;
+    padding-left : 15%;
+    padding-right : 15%;
+    /* padding-bottom : 2.5%; */
+    text-align : center;
+    background-color: #D3D3D3;
+    color : black;
+    
+}
+
+
+/* Education Section */
+
+#education {
+    padding-top : 5% ;
+    padding-right : 10%;
+    padding-left : 10%;
+    padding-bottom : 8%;
+    text-align : center;
+    background-color : #D3D3D3;
+}
+
+#education> h2 {
+    font-weight : 600;
+    font-family : "ubuntu";
+    padding-bottom: 1.5rem
+}
+
+#education>h5 {
+    font-weight : bold;
+    font-family: "Montserrat";
+}
+
+@media (max-width : 991px){
+    .crads-col   {
+        padding-top : 1rem;
+    }
+
+    .firh1 {
+        font-size : 2rem;
+        font-weight : 700;
+        /* padding-bottom : 1.5rem; */
+    }
+    
+    .firh2 {
+        font-size : 2.5rem;
+        font-weight : 700;
+        padding-bottom : 1.5rem;
+    }
+
+    #title {
+        padding-bottom : 5rem;
+    }
+
+    .navbar-brand {
+        font-size : 1rem;
+    }
+
+    .head {
+        padding-bottom : 3rem;
+    }
+
+    .project-title {
+        padding-top : 2rem;
+    }
+
+    .courel-item {
+        
+            padding : 5% 10%;
+        
+    }
+    
+    #certificates {
+        padding : none;
+    }
+
+    .carousel {
+        padding-top : 5%;
+        padding-bottom : 5%;
+    }
+
+    #projects {
+        padding : 0%;
+    }
+
+    .carousel222 {
+        display:block !important;
+    }
+
+    .carousel111 {
+        display : none;
+    }
+
+    .carousel-indicators {
+        display : none;
+    }
+
+    .title-img {
+        border-radius : 100%;
+    }
+
+    
+}
+
+/* skills */
+#skills {
+    background-color:white;
+    text-align:center;
+    padding: 6% 5%;
+}
+
+
+#skills >h2 {
+    font-weight : 600;
+    font-family : "ubuntu";
+    padding-bottom: 2rem
+}
+
+.skills>img {
+    width : 4rem;
+    padding-bottom : 1rem;
+}
+
+
+
+.skills {
+    padding-bottom : 5rem;
+}
+
+.carousel222 {
+    display :none;
+}
+
+/* Projects */
+
+#projects {
+    background-color: white;
+    text-align:center;
+    padding: 6% 5%;
+    
+}
+
+
+
+#projects >h2 {
+    font-weight : 600;
+    font-family : "ubuntu";
+    /* padding-bottom: 3rem; */
+}
+
+.ancer {
+    color : black;
+    text-decoration : none;
+}
+
+/* .carousel-indicators {
+    display : none;
+} */
+
+.ancer:hover {
+    color : rgb(89, 84, 84)
+}
+
+.project-img {
+    width : 100%;
+    border-radius : 2%;
+    height : 100%;
+}
+
+.project-title {
+    margin:auto;
+}
+
+.carousel-item {
+    padding : 5% 10%;
+}
+
+/* certificates */
+
+#certificates {
+    padding : 6% 10%;
+    text-align : center;
+    background-color : #D3D3D3;
+}
+
+
+#certificates> h2 {
+    font-weight : 600;
+    font-family : "ubuntu";
+    padding-bottom: 2rem
+}
+
+.carousel-item {
+    text-align : center;
+}
+
+.cards-certi {
+    margin : auto;
+}
+
+.cer-image {
+    height : 85%;
+    width : 80%;
+    margin-top : 0.6rem;
+}
+
+
+/* Contact Me */
+
+#contact >h2 {
+    font-weight : 600;
+    font-family : "ubuntu";
+    padding-bottom: 2rem
+}
+
+#contact {
+    /* padding : 6% 10%; */
+    padding-left : 10%;
+    padding-right : 10%;
+    padding-top : 3%;
+    padding-bottom : 4%;
+    text-align : center;
+    background-color : white;
+}
+
+.icon-i {
+    text-decoration : none;
+    color : black;
+}
+
+.icon-i:hover  {
+    text-decoration : none;
+    color : rgb(80, 79, 79);
+}
+
+
